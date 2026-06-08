@@ -4,3 +4,7 @@ streamlit
 psycopg2-binary
 requests
 PyYAML
+langgraph
+langchain-core
+httpx
+pytest
