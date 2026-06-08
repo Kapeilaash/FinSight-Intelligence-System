@@ -1,0 +1,1 @@
+Fetch recent news and market signals for the given symbol.

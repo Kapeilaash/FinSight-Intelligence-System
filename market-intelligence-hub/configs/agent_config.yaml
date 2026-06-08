@@ -1,0 +1,5 @@
+agents:
+  researcher: {}
+  analyst: {}
+  writer: {}
+  critic: {}
