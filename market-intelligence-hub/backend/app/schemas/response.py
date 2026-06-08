@@ -1,6 +1,11 @@
-from pydantic import BaseModel
-from typing import Any
+from pydantic import BaseModel, Field
+
 
 class ReportResponse(BaseModel):
-    title: str
-    content: Any
+    """Structured API response after the agent graph completes."""
+
+    topic: str
+    markdown: str = Field(..., description="Institutional-style markdown brief")
+    critic_verdict: str = ""
+    critic_reason: str = ""
+    retry_loops: int = 0
